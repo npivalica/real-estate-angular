@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RealEstateAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# real-estate-angular
+School project for Practicum in Object Web Programming course
+>>>>>>> 1e2309115e6ac8985a60cf6c8e70dab86fd89367
