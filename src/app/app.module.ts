@@ -1,4 +1,4 @@
-import { Routes, RouterModule } from '@angular/router';
+import { Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,18 +17,18 @@ import { PropertyGridComponent } from './pages/property-grid/property-grid.compo
 import { PropertySingleComponent } from './pages/property-single/property-single.component';
 import { MenuComponent } from './layout/menu/menu.component';
 
-const appRoutes : Routes = [
-  { path: 'about', component: AboutComponent },
-  { path: 'agent-single', component: AgentSingleComponent },
-  { path: 'agents-grid', component: AgentsGridComponent },
-  { path: 'blog-grid', component: BlogGridComponent },
-  { path: 'blog-single', component: BlogSingleComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'home-page', component: HomePageComponent },
-  { path: 'property-grid', component: PropertyGridComponent },
-  { path: 'property-single', component: PropertySingleComponent },
-  { path: '', redirectTo:'/home', pathMatch:'full' }
-];
+// const appRoutes : Routes = [
+//   { path: 'about', component: AboutComponent },
+//   { path: 'agent-single', component: AgentSingleComponent },
+//   { path: 'agents-grid', component: AgentsGridComponent },
+//   { path: 'blog-grid', component: BlogGridComponent },
+//   { path: 'blog-single', component: BlogSingleComponent },
+//   { path: 'contact', component: ContactComponent },
+//   { path: 'home-page', component: HomePageComponent },
+//   { path: 'property-grid', component: PropertyGridComponent },
+//   { path: 'property-single', component: PropertySingleComponent },
+//   { path: '', redirectTo:'/home', pathMatch:'full' }
+// ];
 
 @NgModule({
   declarations: [
@@ -48,7 +48,7 @@ const appRoutes : Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
