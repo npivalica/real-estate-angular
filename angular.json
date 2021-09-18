@@ -30,7 +30,7 @@
               "src/styles.css"              
             ],
             "scripts": [
-              
+
             ]
           },
           "configurations": {
@@ -100,7 +100,6 @@
             ],
             "scripts": [
               "src/assets/contactform/contactform.js",
-              "src/assets/js/main.js",
               "src/assets/lib/bootstrap/js/bootstrap.js",
               "src/assets/lib/bootstrap/js/bootstrap.min.js",
               "src/assets/lib/bootstrap/js/bootstrap.min.js.map",
@@ -113,7 +112,8 @@
               "src/assets/lib/popper/popper.min.js",
               "src/assets/lib/popper/popper.min.js.map.json",
               "src/assets/lib/scrollreveal/scrollreveal.js",
-              "src/assets/lib/scrollreveal/scrollreveal.min.js"
+              "src/assets/lib/scrollreveal/scrollreveal.min.js",
+              "src/assets/js/main.js"
             ]
           }
         }
