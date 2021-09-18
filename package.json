@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "generate": "node generate.js > db.json",
     "mock:server": "json-server --watch db.json"
   },
   "private": true,
@@ -20,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
     "bootstrap": "^5.1.1",
+    "faker": "^5.5.3",
     "jquery": "^3.6.0",
     "ngx-owl-carousel-o": "^6.0.0",
     "popper.js": "^1.16.1",
